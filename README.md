@@ -33,6 +33,11 @@ python classifier.py
 ```
 
 ### Step 3: Recognize New Data
+- Update the ids variable in the recognize_new.py file with an appropraite name assigned to each id according to the face samples collection. Here is an example.
+```bash
+ids = { 1: "Srawan", 2: "Shyam" }
+```
+- Then run the recognizer_new.py with a below command.
 
 ```bash
 python recognize_new.py
